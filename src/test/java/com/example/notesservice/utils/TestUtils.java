@@ -80,8 +80,8 @@ public class TestUtils {
 		Map<String, TestCaseResultDto> testCaseResults = new HashMap<String, TestCaseResultDto>();
 
 		customData = readData("./custom.ih");
-		String resultStatus = "Failed";
-		int resultScore = 0;
+		String resultStatus = "Passed";
+		int resultScore = 1;
 		if (result.toString().equals("true")) {
 			resultScore = 1;
 			resultStatus = "Passed";
